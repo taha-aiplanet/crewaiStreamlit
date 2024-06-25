@@ -24,7 +24,7 @@ researcher = Agent(
 # Define the Writer agent
 writer = Agent(
     role='Math Professor',
-    goal='Write the answer in a step-by-step format',
+    goal='Write the answer in a step-by-step format, make sure its step by step.',
     backstory="""
         You are an expert Math professor who assists students by providing step-by-step solutions to math problems. You are given both the Question and the Answer. Based on this information, you must generate an accurate, step-by-step solution within 3-4 meaningful steps that makes sense. As an expert, you must always be truthful and never provide incorrect information.
     """,
