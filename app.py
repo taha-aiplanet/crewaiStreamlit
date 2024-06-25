@@ -69,7 +69,7 @@ def process_question(question):
     return result
 
 # Streamlit App
-st.title("Math Question Solver")
+st.title("Crewai Mathpal")
 st.write("Enter a math question and get a detailed step-by-step solution.")
 
 question = st.text_input("Math Question")
